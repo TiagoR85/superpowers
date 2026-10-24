@@ -1,0 +1,217 @@
+skills:
+  # Skills prioritárias criadas por você
+  - id: test-driven-development
+    path: skills/test-driven-development
+    priority: high
+    tags: [tdd, red-green-refactor, tests]
+
+  - id: subagent-driven-development
+    path: skills/subagent-driven-development
+    priority: high
+    tags: [subagents, orchestration]
+
+  - id: execute-plan
+    path: skills/execute-plan
+    priority: high
+    tags: [debugging, runbook]
+
+  # Skills originais do Superpowers
+  - id: brainstorming
+    path: skills/brainstorming
+    priority: medium
+    tags: [design, socratic, collaboration]
+
+  - id: dispatching-parallel-agents
+    path: skills/dispatching-parallel-agents
+    priority: medium
+    tags: [parallelism, agents, orchestration]
+
+  - id: executing-plans
+    path: skills/executing-plans
+    priority: medium
+    tags: [execution, planning, workflow]
+
+  - id: finishing-a-development-branch
+    path: skills/finishing-a-development-branch
+    priority: medium
+    tags: [git, merge, release]
+
+  - id: receiving-code-review
+    path: skills/receiving-code-review
+    priority: medium
+    tags: [review, feedback, collaboration]
+
+  - id: requesting-code-review
+    path: skills/requesting-code-review
+    priority: medium
+    tags: [review, request, workflow]
+
+  - id: systematic-debugging
+    path: skills/systematic-debugging
+    priority: medium
+    tags: [debugging, evidence, checkpoints]
+
+  - id: using-git-worktrees
+    path: skills/using-git-worktrees
+    priority: low
+    tags: [git, branching, workflow]
+
+  - id: using-superpowers
+    path: skills/using-superpowers
+    priority: medium
+    tags: [framework, integration, automation]
+
+  - id: verification-before-completion
+    path: skills/verification-before-completion
+    priority: medium
+    tags: [validation, testing, completion]
+
+  - id: writing-plans
+    path: skills/writing-plans
+    priority: medium
+    tags: [planning, documentation, workflow]
+
+  - id: writing-skills
+    path: skills/writing-skills
+    priority: medium
+    tags: [writing, clarity, communication]
+
+  # Skills de Frontend externas (C:\Users\tiago\.config\opencode\skill)
+  # Estas skills estão disponíveis para projetos de UI/frontend
+  # Não são carregadas automaticamente - use conforme necessário
+  - id: design-taste-frontend
+    path: C:\Users\tiago\.config\opencode\skill\design-taste-frontend
+    priority: medium
+    tags: [frontend, design, anti-slop, landing-page, portfolio]
+    external: true
+    note: "Anti-slop frontend skill for landing pages, portfolios, and redesigns"
+
+  - id: frontend-design-deslop
+    path: C:\Users\tiago\.config\opencode\skill\frontend-design-deslop
+    priority: medium
+    tags: [frontend, design, deslop, dashboard, saas, application]
+    external: true
+    note: "Produce distinctive, non-generic UI and design applications"
+
+  # Token savers (survey 2026-10-18) — caveman e opt-in: só ativa quando o
+  # usuário diz "caveman mode", "be brief" ou invoca /caveman explicitamente.
+  - id: caveman
+    path: skills/caveman
+    priority: low
+    tags: [tokens, verbosity, terse, opt-in]
+    external: true
+    note: "Terse caveman voice: answer first, fluff gone, every technical fact kept"
+
+  - id: opencode-hub
+    path: skills/opencode-hub
+    priority: medium
+    tags: [hub, dashboard, projects, sessions, costs, skills, sync]
+    external: true
+    note: "My OpenCode Hub: paginas, auth da web UI, sync de skills, custos/tokens"
+
+  # Skills adicionais (sync 2026-10-23) - copia local estava sem elas no índice
+  - id: codemap
+    path: skills/codemap
+    priority: medium
+    tags: [graph, dependency-graph, architecture, module-boundaries]
+    note: "Skill de grafo: mapas de código, grafos de dependência, diagramas de arquitetura"
+
+  - id: clonedeps
+    path: skills/clonedeps
+    priority: low
+    tags: [deps, vendor, patch, sync]
+
+  - id: deepwork
+    path: skills/deepwork
+    priority: medium
+    tags: [orchestrator, multi-phase, review-gates]
+
+  - id: fact-check
+    path: skills/fact-check
+    priority: medium
+    tags: [verification, dependencies, assumptions]
+
+  - id: github-resolution
+    path: skills/github-resolution
+    priority: low
+    tags: [github, issues, triage]
+
+  - id: humanizer
+    path: skills/humanizer
+    priority: low
+    tags: [content, llm-output, readability]
+
+  - id: improve-codebase-architecture
+    path: skills/improve-codebase-architecture
+    priority: medium
+    tags: [architecture, refactor, modularity, boundaries]
+
+  - id: loop-engineering
+    path: skills/loop-engineering
+    priority: medium
+    tags: [fix-verify-loop, automation]
+
+  - id: opencode-workflow
+    path: skills/opencode-workflow
+    priority: medium
+    tags: [opencode, sessions, models, delegation]
+
+  - id: post-refactor
+    path: skills/post-refactor
+    priority: low
+    tags: [refactor, validation, metrics]
+
+  - id: pr-review
+    path: skills/pr-review
+    priority: medium
+    tags: [pr, review, audit]
+
+  - id: reflect
+    path: skills/reflect
+    priority: low
+    tags: [self-reflection, meta-analysis, bias]
+
+  - id: release
+    path: skills/release
+    priority: medium
+    tags: [release, versioning, changelog, rollback]
+
+  - id: security-audit
+    path: skills/security-audit
+    priority: high
+    tags: [security, owasp, secrets, dependencies]
+
+  - id: simplify
+    path: skills/simplify
+    priority: medium
+    tags: [simplify, yagni, duplication]
+
+  - id: verification-deploy
+    path: skills/verification-deploy
+    priority: medium
+    tags: [verification, deploy, health-checks, rollback]
+
+  - id: vps-deploy
+    path: skills/vps-deploy
+    priority: medium
+    tags: [vps, docker, deploy, zero-downtime]
+
+  - id: vps-maintenance
+    path: skills/vps-maintenance
+    priority: low
+    tags: [vps, maintenance, backups, security]
+
+  - id: vps-network
+    path: skills/vps-network
+    priority: low
+    tags: [vps, tailscale, dns, acl]
+
+  - id: vps-services
+    path: skills/vps-services
+    priority: low
+    tags: [vps, services, opencode, health]
+
+  - id: worktrees
+    path: skills/worktrees
+    priority: low
+    tags: [git, worktrees, parallel]
